@@ -1,0 +1,41 @@
+Gravity Shift 使用素材クレジット
+
+【グラフィック素材】
+
+Industrial Assets
+Industrial Characters - Military
+Created by Atomic Realm
+https://atomicrealm.itch.io/
+
+一部の素材について、サイズ変更・色調整・
+アニメーションの切り出しを行っています。
+
+
+【BGM・SE素材】
+
+音楽：ユーフルカ
+https://youfulca.com/
+
+効果音：効果音工房
+https://unipla.com/
+
+
+【エフェクト素材】
+
+Super Pixel Effects Gigapack
+Super Pixel Fantasy FX Pack 3
+Created by unTied Games
+https://untiedgames.itch.io/super-pixel-effects-gigapack
+https://untiedgames.itch.io/super-pixel-fantasy-fx-pack-3
+
+License:
+http://untiedgames.com/files/license.txt
+
+一部の素材について、サイズ変更・色調整・
+アニメーションの切り出しを行っています。
+
+
+【注意】
+
+第三者素材の権利は各制作者に帰属します。
+この公開リポジトリには、上記素材の画像・音声・フォント本体を含めていません。

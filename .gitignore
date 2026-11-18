@@ -1,0 +1,32 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.VC.db
+*.opendb
+
+# C++ build outputs
+Debug/
+Release/
+x64/
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.log
+
+# Local machine settings
+DxLibLocal.props
+
+# Third-party runtime assets are not redistributed in this repository.
+GravityShift2/Assets/Audio/
+GravityShift2/Assets/Fonts/
+GravityShift2/Assets/Images/
+
+# Temporary files
+*.tmp
+*.bak
+StageValidationLog.txt
+
+# Local portfolio image (not included in the public source repository)
+docs/thumbnail.png

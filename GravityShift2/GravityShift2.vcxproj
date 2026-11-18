@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{bed36dc6-7eb6-41e4-a4ed-9c056161912c}</ProjectGuid>
+    <RootNamespace>GravityShift2</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <Import Project="..\DxLibLocal.props" Condition="Exists('..\DxLibLocal.props')" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp" />
+	<ClCompile Include="AudioManager.cpp" />
+    <ClCompile Include="CameraTransition.cpp" />
+    <ClCompile Include="Boss.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="BulletManager.cpp" />
+    <ClCompile Include="BulletTerrainCollision.cpp" />
+    <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="EffectManager.cpp" />
+	<ClCompile Include="EditorStageData.cpp" />
+	<ClCompile Include="EditorHistory.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="EnemyBullet.cpp" />
+    <ClCompile Include="EnemyBulletManager.cpp" />
+    <ClCompile Include="EnemyManager.cpp" />
+	<ClCompile Include="EnemyTerrainCollision.cpp" />
+    <ClCompile Include="Goal.cpp" />
+    <ClCompile Include="GravityBlock.cpp" />
+	<ClCompile Include="GravityBlockManager.cpp" />
+	<ClCompile Include="GravityRecoveryDevice.cpp" />
+    <ClCompile Include="GravitySystem.cpp" />
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="Laser.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="ScoreManager.cpp" />
+    <ClCompile Include="ScorePopup.cpp" />
+	<ClCompile Include="SawHazard.cpp" />
+	<ClCompile Include="StageEditor.cpp" />
+	<ClCompile Include="StagePreviewSpawn.cpp" />
+	<ClCompile Include="StageValidator.cpp" />
+	<ClCompile Include="UiFont.cpp" />
+    <ClCompile Include="StageFileLoader.cpp" />
+	<ClCompile Include="StageFileWriter.cpp" />
+    <ClCompile Include="StageRenderer.cpp" />
+    <ClCompile Include="StageManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h" />
+	<ClInclude Include="AudioManager.h" />
+	<ClInclude Include="CameraTransition.h" />
+	<ClInclude Include="Boss.h" />
+	<ClInclude Include="CameraArea.h" />
+	<ClInclude Include="CameraConfig.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="BulletManager.h" />
+    <ClInclude Include="BulletTerrainCollision.h" />
+    <ClInclude Include="Effect.h" />
+    <ClInclude Include="EffectAnimationData.h" />
+    <ClInclude Include="EffectManager.h" />
+	<ClInclude Include="EditorStageData.h" />
+	<ClInclude Include="EditorHistory.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="EnemyBullet.h" />
+    <ClInclude Include="EnemyBulletManager.h" />
+    <ClInclude Include="EnemyManager.h" />
+    <ClInclude Include="EnemySpawnData.h" />
+	<ClInclude Include="EnemyTerrainCollision.h" />
+    <ClInclude Include="EnemyType.h" />
+    <ClInclude Include="FallHole.h" />
+    <ClInclude Include="GameConfig.h" />
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="Goal.h" />
+    <ClInclude Include="GravityBlock.h" />
+    <ClInclude Include="GravityBlockManager.h" />
+	<ClInclude Include="GravityBlockSpawnData.h" />
+	<ClInclude Include="GravityRecoveryDevice.h" />
+	<ClInclude Include="MidBossSpawnData.h" />
+	<ClInclude Include="BossSpawnData.h" />
+    <ClInclude Include="GravitySystem.h" />
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="Laser.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="ScoreManager.h" />
+    <ClInclude Include="ScorePopup.h" />
+	<ClInclude Include="SawHazard.h" />
+	<ClInclude Include="SawSpawnData.h" />
+    <ClInclude Include="StageClearCondition.h" />
+    <ClInclude Include="StageData.h" />
+	<ClInclude Include="StageEditor.h" />
+	<ClInclude Include="StagePreviewSpawn.h" />
+	<ClInclude Include="StageValidator.h" />
+	<ClInclude Include="UiFont.h" />
+    <ClInclude Include="StageFileLoader.h" />
+	<ClInclude Include="StageFileWriter.h" />
+    <ClInclude Include="StageManager.h" />
+    <ClInclude Include="StageRenderer.h" />
+    <ClInclude Include="Vector2.h" />
+  </ItemGroup>
+  <ItemGroup>
+	<None Include="Assets\Audio\boss-bgm.mp3" />
+	<None Include="Assets\Audio\boss-cooldown.wav" />
+	<None Include="Assets\Audio\boss-death.mp3" />
+	<None Include="Assets\Audio\boss-grenade.mp3" />
+	<None Include="Assets\Audio\checkpoint.wav" />
+	<None Include="Assets\Audio\dash.mp3" />
+	<None Include="Assets\Audio\enemy-damage.mp3" />
+	<None Include="Assets\Audio\enemy-death.mp3" />
+	<None Include="Assets\Audio\gravity-reverse.mp3" />
+	<None Include="Assets\Audio\heal.wav" />
+	<None Include="Assets\Audio\laser.wav" />
+	<None Include="Assets\Audio\menu-confirm.mp3" />
+	<None Include="Assets\Audio\menu-move.mp3" />
+	<None Include="Assets\Audio\player-damage.mp3" />
+	<None Include="Assets\Audio\player-death.mp3" />
+	<None Include="Assets\Audio\player-jump.mp3" />
+	<None Include="Assets\Audio\player-shot.mp3" />
+	<None Include="Assets\Audio\restart.mp3" />
+	<None Include="Assets\Audio\stage1-bgm.mp3" />
+	<None Include="Assets\Audio\stage2-bgm.mp3" />
+	<None Include="Assets\Audio\stage3-bgm.mp3" />
+	<None Include="Assets\Audio\title-bgm.mp3" />
+	<None Include="Assets\Images\Effects\gravity-reverse-sheet.png" />
+	<None Include="Assets\Images\UI\title-star-sheet.png" />
+	<None Include="Assets\Images\UI\menu-button.png" />
+	<None Include="Assets\Fonts\Kaisotai-Next-UP-B.ttf" />
+	<None Include="Assets\Fonts\m6x11.ttf" />
+    <None Include="Assets\Stages\stage1.txt" />
+    <None Include="Assets\Stages\stage2.txt" />
+    <None Include="Assets\Stages\stage3.txt" />
+    <None Include="Assets\Stages\stage4.txt" />
+    <None Include="Assets\Stages\stage5.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
